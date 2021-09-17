@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Quoted
+{% endblock %}
+
+{% block main %}
+    {{ quoted["name"] }}'s stock price is ${{ quoted["price"] }}
+{% endblock %}
